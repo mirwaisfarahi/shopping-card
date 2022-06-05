@@ -1,5 +1,40 @@
 * {
   margin: 0;
-  padding: 9px;
+  padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/**
+* ! Navbar Section
+**/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212529;
+  color: #fff;
+  padding: 25px 60px;
+}
+
+.card {
+  position: relative;
+  background-color: #fff;
+  color: #212529;
+  font-size: 30px;
+  border-radius: 4px;
+}
+
+.cardAmount {
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: red;
+  padding: 3px;
 }
